@@ -38,7 +38,6 @@ module.exports = {
                 test: /\.vue$/,
                 use: 'vue-loader'
             },
-
             {
                 test: /\.s?css$/,
                 use: [
@@ -51,14 +50,12 @@ module.exports = {
                     'sass-loader'
                 ]
             },
-
             {
                 test: /\.js$/,
                 use: [
                     'babel-loader'
                 ]
-            },
-            
+            },            
             {
                 test: /\.(png|jpe?g|gif|webp)$/,
                 use: 'file-loader'
